@@ -3,8 +3,11 @@
   "manifest_version": 2,
   "name": "gitlex",
   "version": "1.0",
-
+  
+  "author": "Antonio Pedro Marques",
+  "homepage_url": "https://github.com/entonio/gitlex",
   "description": "Browser extension for GitLab. \nIcon made by Freepik (http://www.freepik.com) from http://www.flaticon.com",
+
   "icons": {
     "48": "icons/bird-on-branch-48.png",
     "96": "icons/bird-on-branch-96.png"
