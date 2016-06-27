@@ -1,5 +1,5 @@
 #!/bin/sh
-# I, the author of this file, hereby release its contents into the Public Domain
+# I, the author of this file, hereby release its contents to the Public Domain
 
 : ${1?"Usage: $0 VERSION"}
 

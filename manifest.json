@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "gitlex",
   "version": "1.0",
-  
+
   "author": "Antonio Pedro Marques",
   "homepage_url": "https://github.com/entonio/gitlex",
   "description": "Browser extension for GitLab. \nIcon made by Freepik (http://www.freepik.com) from http://www.flaticon.com",
@@ -24,6 +24,10 @@
     {
       "matches": ["*://*/*/merge_requests/new?*"],
       "js": ["content/merge_request_force_remove_source_branch.js"]
+    },
+    {
+      "matches": ["*://*/*/merge_requests/*"],
+      "js": ["content/merge_request_diffs_w_1.js"]
     }
   ]
 
